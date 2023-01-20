@@ -1,0 +1,44 @@
+{
+  "version": "1.0.0",
+  "description": "ok",
+  "scripts": {
+    "build": "webpack --mode=development",
+    "build:prod": "webpack --mode production",
+    "devserv": "webpack-dev-server --open",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+  },
+  "license": "MIT",
+  "repository": {
+    "url": "git+https://github.com/rolling-scopes-school/rasmiyya-mammadli-JSFEEN2022Q3.git"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.20.12",
+    "@babel/preset-env": "^7.20.2",
+    "babel-loader": "^9.1.2",
+    "babel-preset-airbnb": "^5.0.0",
+    "clean-webpack-plugin": "^4.0.0",
+    "css-loader": "^6.7.3",
+    "eslint": "^8.32.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-config-node": "^4.1.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-jsx-a11y": "^6.6.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-webpack-plugin": "^3.2.0",
+    "file-loader": "^6.2.0",
+    "gh-pages": "^4.0.0",
+    "google-fonts-webpack-plugin": "^0.4.4",
+    "html-webpack-plugin": "^5.5.0",
+    "json-server": "^0.17.1",
+    "mini-css-extract-plugin": "2.4.5",
+    "style-loader": "^3.3.1",
+    "url-loader": "^4.1.1",
+    "webpack": "^5.75.0",
+    "webpack-cli": "^5.0.1",
+    "webpack-dev-server": "^4.11.1"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
